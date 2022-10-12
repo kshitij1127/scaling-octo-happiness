@@ -1,0 +1,94 @@
+.para{
+    display: flex;
+    justify-content: center;
+    font-size: 80;
+    font-weight: bolder;
+    color: lightgreen;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: Jetbrains Mono;
+}
+
+a.active, a:hover{
+    transition: 0.5s;
+    background: #1b9bff;
+}
+
+.know-more{
+    margin-left: 20%;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: coral;
+}
+
+.tourism{
+    margin-left: 20%;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(112, 175, 216);
+    margin-top: 5%;
+}
+
+.tourism:hover{
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.know-more:hover{
+    transition: 0.5s;
+    background-color: lightyellow;
+}
+
+.funfacts{
+    margin-left: 20%;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    color: black;
+    margin-top: 5%;
+}
+
+.funfacts:hover{
+    transition: 0.5s;
+    background-color: lightcoral;
+}
