@@ -1,0 +1,40 @@
+body{
+    background-color: purple;
+}
+
+.goback{
+    background-color: blueviolet;
+    color: white;
+    font-size: x-large;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px;
+    border-color: black;
+    width: 10%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goback:hover{
+    transition: 0.5s;
+    background-color: brown;
+}
+
+.image{
+    margin-right: 70px;
+}
+
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.list{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightcoral;
+    font-size: 30px;
+    margin-left: 2%;
+}

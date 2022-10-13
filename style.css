@@ -9,7 +9,8 @@
 }
 
 nav{
-    background: #0082e6;
+    /* background: #0082e6; */
+    background: gray;
     height: 80px;
     width: 100%;
 }
@@ -45,7 +46,8 @@ nav ul li a{
 
 a.active, a:hover{
     transition: 0.5s;
-    background: #1b9bff;
+    /* background: #1b9bff; */
+    background: purple;
 }
 
 .know-more{
